@@ -3,3 +3,5 @@ node_modules
 dist
 .vscode
 .DS_Store
+authorized_homes.json
+banned_homes.json
