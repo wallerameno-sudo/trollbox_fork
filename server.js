@@ -11,7 +11,8 @@ setTimeout(async () => {
 
     const didSetup = await setup();
 
-    if (!didSetup) {
+    if (didSetup) {
+      process.exit()
     } else {
       startServer();
     }

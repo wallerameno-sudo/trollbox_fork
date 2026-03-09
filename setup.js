@@ -33,7 +33,7 @@ async function setup() {
     }
 
     if (isSetup) {
-        return;
+        return false;
     } else {
         console.log(ANSI_YELLOW("Welcome to Trollbox setup! Let's create your .env file."));
 
@@ -49,6 +49,7 @@ async function setup() {
         const envContent = `PORT=${port}\nHOME_SALT=${homeSalt}\nTOKEN=${token}\n`;
         fs.writeFileSync(envPath, envContent, 'utf-8');
         console.log(ANSI_BLUE('.env file created successfully!'));
+    
     }
 
     // Ensure banned_homes.json exists
@@ -68,7 +69,7 @@ async function setup() {
     }
 
     console.log(ANSI_GREEN("Setup complete! You can now run the server with 'node server.js'"));
-    process.exit(0);
+    return true
 }
 
 module.exports = setup;
