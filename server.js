@@ -268,7 +268,8 @@ io.on('connection', (socket) => {
     io.emit('user left', {
       connId: socket.connId,
       home: socket.home,
-      nick: socket.nick
+      nick: socket.nick,
+      color: socket.color,
     });
   });
 
