@@ -13,6 +13,7 @@ Open-source WIN93's trollbox created in scratch for fun and learning purposes. B
    token=your_token
    ```
 4. Run `npm start`
-5. Open `http://localhost:8080` in your browser
+5. Finish the setup process
+6. Open `http://localhost:8080` in your browser
 # License
 No license.
