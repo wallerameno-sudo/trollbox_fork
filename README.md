@@ -10,4 +10,4 @@ Open-source WIN93's trollbox created in scratch for fun and learning purposes. B
 4. Finish the setup process
 5. Open `http://localhost:8080` in your browser
 # License
-No license.
+ISC
