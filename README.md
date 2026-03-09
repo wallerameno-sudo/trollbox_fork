@@ -1,6 +1,6 @@
 Open-source WIN93's trollbox created in scratch for fun and learning purposes. Based on Node.js, and Socket.IO
 
-[](test.png)
+![Trollbox Screenshot](test.png)
 
 # Installation
 
